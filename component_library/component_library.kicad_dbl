@@ -1,0 +1,1121 @@
+{
+    "meta": {
+        "version": 0
+    },
+    "name": "My Database Library",
+    "description": "Thư viện quản lý linh kiện từ SQLite",
+    "source": {
+        "type": "odbc",
+        "connection_string": "Driver={SQLite3 ODBC Driver};Database=E:\\KiCAD_Project\\component_library\\component_library.db",
+        "timeout_seconds": 2
+    },
+    "libraries": [
+        {
+            "name": "Resistors",
+            "table": "Resistors",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Resistance",
+                    "name": "Resistance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "Resistor",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "System On Chip (SoC)",
+            "table": "System On Chip (SoC)",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "System On Chip (SoC)",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "Capacitors",
+            "table": "Capacitors",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Capacitance",
+                    "name": "Capacitance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Voltage - Rated",
+                    "name": "Voltage - Rated",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Temperature Coefficient",
+                    "name": "Temperature Coefficient",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "Capacitor",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "Crystals, Oscillators, Resonators",
+            "table": "Crystals, Oscillators, Resonators",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Frequency",
+                    "name": "Frequency",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Frequency Stability",
+                    "name": "Frequency Stability",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Load Capacitance",
+                    "name": "Load Capacitance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "ESR",
+                    "name": "ESR",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "Crystal, Oscillator, Resonator",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "Mechanical",
+            "table": "Mechanical",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [],
+            "properties": {
+                "description": "Description",
+                "keywords": "Mechanical"
+            }
+        },
+        {
+            "name": "Switches, Buttons",
+            "table": "Switches, Buttons",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Circuit",
+                    "name": "Circuit",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "Switch, Button, Tactical",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "TVS, ESD",
+            "table": "TVS, ESD",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Reverse Stand-Off Voltage (Vrwm)",
+                    "name": "Vrwm",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "TVS, ESD, Diode, Protection",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "Filters",
+            "table": "Filters",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "Filter, EMI, Ferrite Bead",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "FETs",
+            "table": "FETs",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "FET, MOSFET, Transistor",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "PMIC",
+            "table": "PMIC",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Output Current",
+                    "name": "Output Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "PMIC, Voltage Regulator, Power Management",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "Inductors",
+            "table": "Inductors",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Inductance",
+                    "name": "Inductance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Current Rating",
+                    "name": "Current Rating",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Current - Saturation (Isat)",
+                    "name": "Saturation Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "DC Resistance(DCR)",
+                    "name": "DCR",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "Inductor, Coil, Power Inductor",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "Connectors",
+            "table": "Connectors",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "Connector, Header, Socket",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "Diodes",
+            "table": "Diodes",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Voltage - Forward(Vf@If)",
+                    "name": "Vf",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Voltage - DC Reverse(Vr)",
+                    "name": "Vr",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Current - Rectified",
+                    "name": "If",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "Diode, Rectifier, Zener, Schottky",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "BJTs",
+            "table": "BJTs",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "BJT, Transistor, NPN, PNP",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "ICs",
+            "table": "ICs",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "IC, Integrated Circuit",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "Modules",
+            "table": "Modules",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "Modules",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "Antennas",
+            "table": "Antennas",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Antenna Type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Frequency",
+                    "name": "Frequency",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Bandwidth",
+                    "name": "Bandwidth",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Impedance",
+                    "name": "Impedance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "VSWR",
+                    "name": "VSWR",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Peak Gain",
+                    "name": "Peak Gain",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "Antenna, RF, Wireless",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "Ferrite Beads",
+            "table": "Ferrite Beads",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Impedance @ Frequency",
+                    "name": "Impedance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Current Rating",
+                    "name": "Current Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "DC Resistance(DCR)",
+                    "name": "DCR",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "Ferrite Bead, EMI Filter, Bead",
+                "datasheet": "Datasheet"
+            }
+        },
+        {
+            "name": "LEDs",
+            "table": "LEDs",
+            "key": "Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Color",
+                    "name": "Color",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "inherit_properties": false
+                },
+                {
+                    "column": "JLCPCB Part #",
+                    "name": "LCSC Part #",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "keywords": "LED, Light Emitting Diode",
+                "datasheet": "Datasheet"
+            }
+        }
+    ]
+}

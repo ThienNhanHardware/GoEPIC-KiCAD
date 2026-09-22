@@ -1,0 +1,4 @@
+M.2 SSD Boards 2230 to 22110 Dummy by CFonteyne on Thingiverse: https://www.thingiverse.com/thing:6781718
+
+Summary:
+As I needed some dummy drives for CAD purpose, I made them.Not intended to be printed.The board respect the recommended heights.0.8mm for the board/connector part1.35mm for top and bottom components.Clearance of 4 mm for the top connectorsClearance of 5.2 mm for the bottom connectorsAll models are M Key connectors (NVME drives)2230 : 22 x 30 mm board2242 : 22 x 42 mm board2260 : 22 x 60 mm board2280 : 22 x 80 mm board22110 : 22 x 110 mm board3030 : 30 x 30 mm board3042 : 30 x 42 mm boardMade with Freecad.Exported as STL and STEP files.For 2.5/3.5 HDD/SSD : https://www.thingiverse.com/thing:6782420

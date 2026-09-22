@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "KLMBG2JETD-B041003"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-12-27-16:53:32)
+    (mountForm default
+        (footprintRef "BGA153C50P14X14_1150X1300X80")
+        (spec "System")
+    )
+)

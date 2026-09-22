@@ -1,0 +1,13 @@
+{
+  "meta": {"version": 1.0},
+  "name": "PartsBox Parts",
+  "description": "Your PartsBox Parts Library",
+  "source": {
+    "type": "REST_API",
+    "api_version": "v1",
+    "root_url": "https://api.partsbox.com/api/free/kicad",
+    "token": "partsboxapi_2tegy70b8ahqj969t13cwrysm39f5a84909b4e171ff5ab0b091717e401403654",
+    "timeout_parts_seconds": 60,
+    "timeout_categories_seconds": 3600
+    }
+  }

@@ -1,0 +1,9 @@
+Manufacturer=SAMSUNG
+PartNumber=KLMBG2JETD-B041003
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=153
+Version=1.1
+Released=2024-08-23 05:08:26
+Downloaded=2026-01-29 06:34:14
+3D=Y

@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-22072024-085453";"";
+"REFERENCE";"300200159935";"";
+"TraceParts.PartTitle";"Female To Female Standoff Cylindrical  M2 5.0 mm";"";
+"TraceParts.InstanceId";"90-22072024-08545336SNNF61TD2VGO22X5IQKDPXM";"";
+"SUPPLIER";"Essentra Components";"";
+"DESIGN";"Female To Female Standoff Cylindrical  M2 5.0 mm";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.1";"";

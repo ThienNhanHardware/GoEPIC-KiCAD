@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP6256
+D WiFi 11ac + Bluetooth V5.0 Module
+K
+F https://dl.radxa.com/rockpi4/docs/hw/datasheets/AP6256%20datasheet_V1.3_12202017.pdf
+$ENDCMP
+#
+#End Doc Library

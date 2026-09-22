@@ -1,0 +1,66 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+AP6256 AP6256 I ANA 9 1 0 0 0
+TIMESTAMP 2026.01.29.08.31.40
+"Manufacturer_Name" AMPAK
+"Manufacturer_Part_Number" AP6256
+"Mouser Part Number" 
+"Mouser Price/Stock" 
+"Arrow Part Number" 
+"Arrow Price/Stock" 
+"Description" WiFi 11ac + Bluetooth V5.0 Module
+"Datasheet Link" https://dl.radxa.com/rockpi4/docs/hw/datasheets/AP6256%20datasheet_V1.3_12202017.pdf
+"Geometry.Height" 1.6mm
+GATE 1 47 0
+AP6256
+1 0 U GND_1
+2 0 U WL_BT_ANT
+3 0 U GND_2
+4 0 U NC_1
+5 0 U NC_2
+6 0 U BT_WAKE
+7 0 U BT_HOST_WAKE
+8 0 U NC_3
+9 0 U VBAT
+10 0 U XTAL_IN
+11 0 U XTAL_OUT
+12 0 U WL_REG_ON
+13 0 U WL_HOST_WAKE
+14 0 U SDIO_DATA_2
+15 0 U SDIO_DATA_3
+16 0 U SDIO_DATA_CMD
+17 0 U SDIO_DATA_CLK
+18 0 U SDIO_DATA_0
+19 0 U SDIO_DATA_1
+20 0 U GND_3
+21 0 U VIN_LDO_OUT
+22 0 U VDDIO
+23 0 U VIN_LDO
+24 0 U LPO
+25 0 U PCM_OUT
+26 0 U PCM_CLK
+27 0 U PCM_IN
+28 0 U PCM_SYNC
+29 0 U 29_SDIO_VSEL_I
+30 0 U NC_4
+31 0 U GND_4
+32 0 U NC_5
+33 0 U GND_5
+34 0 U BT_REG_ON
+35 0 U NC_6
+36 0 U GND_6
+37 0 U GPIO_6
+38 0 U GPIO_3
+39 0 U GPIO_5
+40 0 U GPIO_2
+41 0 U UART_RTS_N
+42 0 U UART_TXD
+43 0 U UART_RXD
+44 0 U UART_CTS_N
+TP1 0 U TP1(NC)
+TP2 0 U TP2(NC)
+TP3 0 U TP3(NC)
+
+*END*
+*REMARK* SamacSys ECAD Model
+2184139/1087464/2.50/47/4/Integrated Circuit

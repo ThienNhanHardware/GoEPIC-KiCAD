@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'KLMBG2JETD_B041003'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SAMSUNG", "KLMBG2JETD-B041003" (!) = "", "BGA153C50P14X14_1150X1300X80", "BGA", "", "", "KLMBG2JETD-B041003", "https://www.arrow.com/en/products/klmbg2jetd-b041003/samsung-electronics?utm_currency=USD&region=nac", " embedded MultiMediaCard Ver. 5.1 compatible.  SAMSUNG eMMC supports features of eMMC5.1 which are defined in JEDEC Standard  - Supported Features : Packed command, Cache, Discard, Sanitize, Power Off Notification, Data Tag,  Partition types, Context ID, Real Time Clock, Dynamic Device Capacity, Command Queuing, Enhanced Strobe Mode,  Secure Write Protection, HS200, HS400, Field Firmware Update.   - Non-supported Features : Large Sector Size (4KB)   Full backward compatibility with previous Multi", "https://www.lcsc.com/datasheet/lcsc_datasheet_2202131900_Samsung-KLMBG2JETD-B041_C2803245.pdf", "0.8 mm"
+END_PART
+
+END.

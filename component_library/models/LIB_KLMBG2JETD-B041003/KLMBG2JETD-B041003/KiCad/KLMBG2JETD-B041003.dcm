@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KLMBG2JETD-B041003
+D  embedded MultiMediaCard Ver. 5.1 compatible.  SAMSUNG eMMC supports features of eMMC5.1 which are defined in JEDEC Standard  - Supported Features : Packed command, Cache, Discard, Sanitize, Power Off Notification, Data Tag,  Partition types, Context ID, Real Time Clock, Dynamic Device Capacity, Command Queuing, Enhanced Strobe Mode,  Secure Write Protection, HS200, HS400, Field Firmware Update.   - Non-supported Features : Large Sector Size (4KB)   Full backward compatibility with previous Multi
+K
+F https://www.lcsc.com/datasheet/lcsc_datasheet_2202131900_Samsung-KLMBG2JETD-B041_C2803245.pdf
+$ENDCMP
+#
+#End Doc Library

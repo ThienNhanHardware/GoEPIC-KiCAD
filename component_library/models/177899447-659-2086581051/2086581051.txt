@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-09042024-073738";"";
+"REFERENCE";"2086581051";"";
+"TraceParts.PartTitle";"HDMI";"";
+"TraceParts.InstanceId";"90-09042024-0737382N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"HDMI v2.1 Receptacle, Right-Angle, Gold Flash Plating, 1.80mm Tab, Tape and Reel, 19 Circuits";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.3";"";
